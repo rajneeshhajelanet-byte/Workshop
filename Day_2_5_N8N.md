@@ -77,7 +77,7 @@ Agents: These are the fundamental actors. Each agent is a specialized, role-play
 Tasks: These are the specific assignments given to agents. Each task has a clear description and an expected output, defining what the agent needs to accomplish.
 Crews: A crew is the orchestrating entity that brings agents and tasks together. It manages the agents and defines the overall process they will follow to achieve a collective goal
 
-<img width="634" height="473" alt="image" src="https://github.com/user-attachments/assets/fe2cdedd-22db-4397-afc9-23f7dd8f8944" />
+![CrewAI Architecture](https://github.com/user-attachments/assets/fe2cdedd-22db-4397-afc9-23f7dd8f8944) />
 
 - **n8n**
   - AI agents treated as nodes inside workflows.  
