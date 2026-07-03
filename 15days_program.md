@@ -1,7 +1,7 @@
 # Extended Program – Agentic AI & Enterprise Transformation (15 Days)
 
 ## Program Vision
-This extended format provides **doctoral‑level depth** across 15 days (8 hours/day). Each of the 5 core themes is expanded into **3 sub‑days** with deeper technical labs, enterprise case studies, and research assignments. Participants will master **Agentic AI, DevOps, MLOps, FinOps, AIOps, Governance, and TOGAF ADM** end‑to‑end.
+This extended format provides **doctoral‑level depth** across 15 days (2 hours/day). Each of the 5 core themes is expanded into **3 sub‑days** with deeper technical labs, enterprise case studies, and research assignments. Participants will master **Agentic AI, DevOps, MLOps, FinOps, AIOps, Governance, and TOGAF ADM** end‑to‑end.
 
 ---
 
