@@ -38,3 +38,4 @@ AutoGPT / BabyAGI Flow:
 2. Execute tasks sequentially
 3. Re-prioritize if budget fails
 4. Continue until goal is satisfied
+<img width="544" height="221" alt="image" src="https://github.com/user-attachments/assets/ccafa93e-ca05-42e4-87ab-163c119acf75" />
