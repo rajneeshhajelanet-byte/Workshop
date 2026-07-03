@@ -1,7 +1,7 @@
 # Executive Workshop: Agentic AI & Enterprise Transformation
 
 ## Program Vision
-We have designed one of the world’s first **CXO‑level applied programs in Agentic AI and Generative AI**.  
+We have designed one of the **CXO‑level applied programs in Agentic AI and Generative AI**.  
 This workshop empowers leaders, architects, and innovators to **master technical depth** while aligning AI with **enterprise governance, compliance, and ROI outcomes**.  
 
 By enrolling, participants will gain the confidence to **lead technical and business teams**, architect **autonomous agent frameworks**, and drive their organizations to become **digital innovators**.
