@@ -51,7 +51,7 @@ Agentic AI adds a **goal‑based orchestration layer** on top of your agents:
 ---
 markdown
 # 🤖 Code Examples – AI Agent vs Agentic AI vs RAG
-=======================================================================================================================================
+============================================================================================================================
 ## 1. Simplified AI Agent Call
 This is a **basic AI Agent** example. Each agent is hardcoded, and the UI decides which one to call.
 
