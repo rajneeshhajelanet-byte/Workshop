@@ -15,6 +15,8 @@ LangChain solves this by providing:
 - Easy integration with **databases, APIs, and retrievers**  
 - Faster prototyping with less custom code  
 
+<img width="429" height="717" alt="image" src="https://github.com/user-attachments/assets/c1bad88a-d032-4ea8-a9f5-c737eb7b6220" />
+
 ---
 
 # ⚙️ LangChain Example – Database + Azure OpenAI Integration
