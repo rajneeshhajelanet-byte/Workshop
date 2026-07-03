@@ -89,6 +89,7 @@ Compare → LangChain (linear) vs LangGraph (graph‑based).
 
 ==========================================================================
 ## LangChain vs LangGraph – Workflow Comparison
+
 🧩 LangChain (Linear Flow)
 LangChain executes tasks step‑by‑step — each stage feeds directly into the next.
 Ideal for simple pipelines like “prompt → tool → memory → output.”
