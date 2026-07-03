@@ -88,7 +88,7 @@ Compare → LangChain (linear) vs LangGraph (graph‑based).
 
 
 ==========================================================================
-LangChain vs LangGraph – Workflow Comparison
+## LangChain vs LangGraph – Workflow Comparison
 🧩 LangChain (Linear Flow)
 LangChain executes tasks step‑by‑step — each stage feeds directly into the next.
 Ideal for simple pipelines like “prompt → tool → memory → output.”
@@ -103,7 +103,7 @@ text
 LangChain is linear orchestration — each component runs sequentially.
 Useful for prompt chaining, tool calling, and memory‑based chatbots.
 
-🌐 LangGraph (Branching Flow)
+## 🌐 LangGraph (Branching Flow)
 LangGraph models workflows as nodes and edges — multiple agents can run in parallel or conditionally.
 Perfect for multi‑agent orchestration and goal‑based autonomy.
 
