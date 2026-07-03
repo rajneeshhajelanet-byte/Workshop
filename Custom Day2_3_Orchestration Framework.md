@@ -60,7 +60,9 @@ This gave us:
 
 
 
-Example
+4. Example Code Snippets
+🔌 Postgres Client
+python
 class PostgresClient:
     def __init__(self, config):
         self.config = config
@@ -85,4 +87,65 @@ class PostgresClient:
             "is_scan": "Seq Scan" in str(plan_details),
             "total_cost": plan_details.get('Total Cost', 0)
         }
+🧠 Prompt for Azure OpenAI
+python
+prompt = f"""
+SYSTEM CONTEXT:
+You are a PostgreSQL expert optimizing queries using LIVE DB stats + Excel rules.
 
+USER QUERY: {user_query}
+
+LIVE DATABASE PERFORMANCE:
+- Execution Time: {exec_time}
+- Sequential Scan Active: {is_scan}
+- Stats: {perf_data}
+
+KNOWLEDGE BASE RULE:
+- Rule ID: {rule_id}
+- Recommended Action: {rule_action}
+
+TASK:
+Return ONLY JSON with keys:
+1. optimized_sql
+2. explanation
+3. validation_checklist
+4. confidence_score
+5. reasoning
+"""
+⚡ LLM Call
+python
+def llm_generate(prompt: str) -> str:
+    response = client.chat.completions.create(
+        model=DEPLOYMENT_NAME,
+        messages=[
+            {"role": "system", "content": "You are a PostgreSQL Performance Engineer. Return strict JSON."},
+            {"role": "user", "content": prompt}
+        ],
+        temperature=0
+    )
+    return response.choices[0].message.content.strip()
+5. Example Flow
+User Query → PostgresClient → DB Stats → Prompt → Azure OpenAI → JSON Optimization Result
+
+6. Why Custom Framework?
+Lightweight compared to LangChain
+
+Transparent routing logic
+
+Direct control over agents and connectors
+
+Enterprise‑ready: integrates DB stats, Excel rules, and LLM optimization seamlessly
+
+Code
+
+---
+
+✅ This Markdown file now clearly documents your **Custom Framework** with:  
+- Overview  
+- Components  
+- Flow diagram  
+- Code snippets  
+- Prompt design  
+- Why you chose custom orchestration  
+
+Would you like me to also prepare a **side‑by‑side comparison table** (Custom Framework vs L
