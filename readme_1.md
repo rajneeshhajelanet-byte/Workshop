@@ -14,7 +14,7 @@ Key focus areas include:
 - **LLM Providers (Azure OpenAI, Hugging Face, AWS Bedrock, Anthropic, Meta AI)**  
 - **Cloud AI Services (Azure AI Foundry, AWS SageMaker, GCP Vertex AI)**  
 - **Governance & Architecture (TOGAF ADM, ADLC)**  
-
+- **Collaboration Tools (GitHub & GitHub Copilot)**  
 ---
 
 ## 🧩 Program Navigation
