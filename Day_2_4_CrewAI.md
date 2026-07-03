@@ -1,5 +1,6 @@
 
 # 👥 CrewAI – Collaborative Agent Framework
+<img width="1274" height="619" alt="image" src="https://github.com/user-attachments/assets/d398f904-b10d-4c01-9dec-17ddd3cdd318" />
 
 ## 1. Why CrewAI?
 - **LangChain** → linear orchestration (prompt → tool → memory).  
