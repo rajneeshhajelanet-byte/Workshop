@@ -89,5 +89,7 @@ python-dotenv → loads secrets from .env
 
 langchain-community → extra tools, retrievers, loaders
 
+
+
 <img width="487" height="220" alt="image" src="https://github.com/user-attachments/assets/bc178f17-0e36-4ce6-a59d-86202386be09" />
 
