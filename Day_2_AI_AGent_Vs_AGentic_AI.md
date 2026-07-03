@@ -2,6 +2,7 @@
 <img width="568" height="345" alt="image" src="https://github.com/user-attachments/assets/5b474010-5f81-40af-a5e5-0c440f38c831" />
 
 # 🤖 Generative AI vs AI Agent vs Agentic AI
+<img width="538" height="332" alt="image" src="https://github.com/user-attachments/assets/5810d821-6d08-4643-ba6d-1e1ea653bfab" />
 
 ## 1. Generative AI
 - **Core capability**: content generation (text, code, images, audio).  
