@@ -3,18 +3,23 @@
 ## 📘 Program Vision
 This program blends expertise across multiple domains to give participants a **complete lifecycle view** of enterprise AI adoption. It prepares leaders and engineers to **architect, implement, and govern AI systems** at scale.
 
-Key focus areas include:
-- **RAG, AI Agents, Agentic AI (Multi‑agent orchestration, Semantic Kernel, LangChain, CrewAI, AutoGen, Custom Framework)**  
+### Focus Areas
+- **RAG (Retrieval‑Augmented Generation)** – ingestion, chunking, embeddings, retrieval  
+- **AI Agents & Agentic AI (Multi‑agent orchestration, Semantic Kernel, LangChain, CrewAI, AutoGen, Custom Frameworks)**  
+- **Workflow Automation (N8n)** – agent pipelines, task automation, integrations  
+- **Machine Learning (Scikit‑Learn, XGBoost, LightGBM, CatBoost)**  
+- **Deep Learning (PyTorch & TensorFlow)**  
 - **DevOps (CI/CD pipelines, Docker, Kubernetes, Jenkins)**  
 - **MLOps (Model monitoring, retraining pipelines, drift detection)**  
 - **FinOps (Cost governance, dashboards, chargeback/showback, ROI modeling)**  
 - **AIOps (Data selection, pattern discovery, anomaly detection, automation)**  
-- **Deep Learning (PyTorch & TensorFlow)**  
 - **Vector Databases (Pinecone, FAISS, Weaviate, Chroma)**  
 - **LLM Providers (Azure OpenAI, Hugging Face, AWS Bedrock, Anthropic, Meta AI)**  
 - **Cloud AI Services (Azure AI Foundry, AWS SageMaker, GCP Vertex AI)**  
+- **Fraud & Compliance (Otera AI)** – AML/KYC automation, anomaly detection  
 - **Governance & Architecture (TOGAF ADM, ADLC)**  
 - **Collaboration Tools (GitHub & GitHub Copilot)**  
+
 ---
 
 ## 🧩 Program Navigation
@@ -43,6 +48,9 @@ Key focus areas include:
 - **Semantic Kernel** – orchestration + reasoning  
 - **Ollama** – local LLM deployment  
 - **Deep Learning Frameworks** – PyTorch, TensorFlow  
+- **Workflow Automation** – N8n  
+- **Fraud Detection & Compliance** – Otera AI  
+- **Collaboration Tools** – GitHub & GitHub Copilot  
 
 ---
 
@@ -90,20 +98,11 @@ Key focus areas include:
 Each day above can be expanded into **3 days of deep dive**:
 - Day 1 → Python, RAG, NLP, embeddings  
 - Day 2 → Orchestration frameworks + DevOps CI/CD  
-- Day 3 → Enterprise case studies + MLOps (PyTorch/TensorFlow)  
+- Day 3 → Enterprise case studies + MLOps (PyTorch/TensorFlow, Otera AI)  
 - Day 4 → Cloud AI services + AIOps  
 - Day 5 → Governance, FinOps, ADLC, TOGAF ADM  
 
 See full details in [Extended 15-Day Program](https://github.com/rajneeshhajelanet-byte/Workshop/blob/main/15days_program.md).
-
----
-
-## 🔍 AIOps Integration
-- **Data Selection** – identify relevant signals  
-- **Pattern Discovery** – anomaly detection, fraud patterns  
-- **Influence** – predictive insights for decision makers  
-- **Collaboration** – cross‑team observability dashboards  
-- **Automation** – self‑healing workflows  
 
 ---
 
@@ -123,13 +122,11 @@ See full details in [Extended 15-Day Program](https://github.com/rajneeshhajelan
 
 ## 🏆 Program Outcomes
 By the end of this program, participants will:
-- Gain **doctoral‑level mastery** of Agentic AI, DevOps, MLOps, FinOps, AIOps, Deep Learning, and Governance  
+- Gain **doctoral‑level mastery** of Agentic AI, DevOps, MLOps, FinOps, AIOps, Deep Learning, Machine Learning, N8n, Otera AI, and Governance  
 - Be able to design **logical + physical blueprints** for AI transformation  
 - Apply **due diligence frameworks** (pain points, KPIs, risk assessment, gap analysis)  
 - Deploy **enterprise‑grade AI solutions** with microservices, APIs, VectorDBs, and cloud AI services  
 - Govern AI adoption with **TOGAF ADM, ADLC, FinOps, AIOps**  
 - Confidently answer **CXO‑level interview questions** on AI agents  
-
----
 
 ---
