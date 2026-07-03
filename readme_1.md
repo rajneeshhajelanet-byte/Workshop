@@ -13,7 +13,7 @@ Key focus areas include:
 - **Vector Databases (Pinecone, FAISS, Weaviate, Chroma)**  
 - **LLM Providers (Azure OpenAI, Hugging Face, AWS Bedrock, Anthropic, Meta AI)**  
 - **Cloud AI Services (Azure AI Foundry, AWS SageMaker, GCP Vertex AI)**  
-- **Governance & Architecture (TOGAF ADM, ADLC, AVP mindset)**  
+- **Governance & Architecture (TOGAF ADM, ADLC)**  
 
 ---
 
