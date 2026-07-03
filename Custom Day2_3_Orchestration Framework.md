@@ -140,8 +140,7 @@ Code
 
 ---
 
-✅ This Markdown file now clearly documents your **Custom Framework** with:  
-- Overview  
+
 - Components  
 - Flow diagram  
 - Code snippets  
