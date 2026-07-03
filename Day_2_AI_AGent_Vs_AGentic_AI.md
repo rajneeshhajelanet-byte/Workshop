@@ -1,7 +1,4 @@
 
-Generative AI vs AI Agent vs Agentic AI. It introduces the concepts clearly, gives examples, and shows code snippets for both task‑based agents and Agentic AI orchestration.
-
-markdown
 # 🤖 Generative AI vs AI Agent vs Agentic AI
 
 ## 1. Generative AI
