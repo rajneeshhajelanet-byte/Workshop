@@ -1,5 +1,7 @@
 autonomous orchestration frameworks like AutoGPT, BabyAGI, and OpenAI’s Swarm.# 🚀 Autonomous AI Agents – Beyond CrewAI and n8n
 
+<img width="544" height="221" alt="image" src="https://github.com/user-attachments/assets/ccafa93e-ca05-42e4-87ab-163c119acf75" />
+
 ## 1. Introduction
 After learning about **LangChain**, **LangGraph**, **CrewAI**, and **n8n**, the next step is exploring **autonomous AI agent frameworks**.  
 These frameworks push agentic AI further by enabling **self-directed goal pursuit** without constant human orchestration.
@@ -38,4 +40,4 @@ AutoGPT / BabyAGI Flow:
 2. Execute tasks sequentially
 3. Re-prioritize if budget fails
 4. Continue until goal is satisfied
-<img width="544" height="221" alt="image" src="https://github.com/user-attachments/assets/ccafa93e-ca05-42e4-87ab-163c119acf75" />
+
