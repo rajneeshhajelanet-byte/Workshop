@@ -1,5 +1,6 @@
 markdown
 # 🏦 Day 2.10 – Deploy Agent Microservices with Docker + Kubernetes
+https://www.google.com/search?q=ai+agents+deployemnt++vi+docker+and+kubernetes+&safe=active&sca_esv=d8df4427cda4b17e&rlz=1C1GCCB_en___IN1180&sxsrf=APpeQnsOoLXtqe8ClqckwayteSeDadPhEw%3A1783084005914&ei=5bNHasq7N6yRnesPm5qy2QQ&biw=1280&bih=585&ved=0ahUKEwiKwpvGybaVAxWsSGcHHRuNLEsQ4dUDCBA&uact=5&oq=ai+agents+deployemnt++vi+docker+and+kubernetes+&gs_lp=Egxnd3Mtd2l6LXNlcnAiL2FpIGFnZW50cyBkZXBsb3llbW50ICB2aSBkb2NrZXIgYW5kIGt1YmVybmV0ZXMgMgUQIRifBTIFECEYnwVI72FQ_AJY0k9wBXgBkAECmAHAA6AB5yKqAQkwLjkuOS4xLjG4AQPIAQD4AQH4AQKYAhagApMdwgIKEAAYRxjWBBiwA8ICBBAhGBXCAgcQIRgKGKABwgIFECEYoAHCAgQQIxgnwgILEAAYgAQYigUYkQLCAgUQABiABMICBhAAGAcYHsICChAhGAoYoAEYwwTCAgQQIRgKwgIIEAAYgAQYogSYAwCIBgGQBgiSBwk1LjguOC4wLjGgB_VfsgcJMC44LjguMC4xuAeEHcIHBjMuMTQuNcgHLIAIAQ&sclient=gws-wiz-serp
 
 ## 1. High-Level Architecture
 ```text
