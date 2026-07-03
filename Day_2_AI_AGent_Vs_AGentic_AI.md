@@ -121,6 +121,9 @@ def orchestrator(goal):
 # Example run
 trip_plan = orchestrator("Plan 7-day Delhi trip under ₹1.3 lakh")
 print(trip_plan)
+
+====================================================================================================================================
+
 Embedding‑Based Agent Selection
 python
 from sentence_transformers import SentenceTransformer, util
@@ -150,6 +153,9 @@ def find_agent(task):
 agent = find_agent("keep expenses low")
 result = agent("Plan trip under ₹1.3 lakh")
 print(result)
+
+====================================================================================================================================
+
 6.  Flow
 Generative AI → show it as the raw engine (LLM generating text/code).
 
@@ -161,9 +167,8 @@ Demonstrate with code → first static agents, then Agentic AI orchestrator, the
 
 Highlight the difference → task execution vs goal pursuit.
 
-Code
+====================================================================================================================================
 
----
 
 ✅ This Markdown file is **ready to paste**. It flows like a teaching module:
 - Explains **Generative AI, AI Agent, Agentic AI**  
