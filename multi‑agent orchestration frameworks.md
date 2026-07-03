@@ -1,0 +1,1 @@
+Day 2 focuses on multi‑agent orchestration frameworks and how they integrate with DevOps pipelines for enterprise deployment. Participants will learn to design autonomous orchestration flows, implement CI/CD pipelines, and deploy agent microservices with Docker + Kubernetes.
