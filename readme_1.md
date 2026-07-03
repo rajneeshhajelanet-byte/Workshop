@@ -18,7 +18,8 @@ This program blends expertise across multiple domains to give participants a **c
 - **Cloud AI Services (Azure AI Foundry, AWS SageMaker, GCP Vertex AI)**  
 - **Fraud & Compliance (Otera AI)** – AML/KYC automation, anomaly detection  
 - **Governance & Architecture (TOGAF ADM, ADLC)**  
-- **Collaboration Tools (GitHub & GitHub Copilot)**  
+- **Collaboration Tools (GitHub & GitHub Copilot)**
+- - **MerMaid, Bruno, Postman, Draw.IO**  
 
 ---
 
