@@ -11,6 +11,8 @@ markdown
   - Retry/fallback logic  
   - Parallel execution  
 
+<img width="1024" height="1536" alt="Copilot_20260703_145515" src="https://github.com/user-attachments/assets/f8afe043-c73b-4184-a8ab-f67052769d79" />
+
 ---
 
 ## 2. Core Concepts
@@ -83,3 +85,62 @@ Run simple example → flights → hotels → budget.
 Extend → add retry/fallback, parallel nodes, or memory.
 
 Compare → LangChain (linear) vs LangGraph (graph‑based).
+
+
+==========================================================================
+LangChain vs LangGraph – Workflow Comparison
+🧩 LangChain (Linear Flow)
+LangChain executes tasks step‑by‑step — each stage feeds directly into the next.
+Ideal for simple pipelines like “prompt → tool → memory → output.”
+
+text
++--------+      +---------+      +---------+      +---------+      +---------+
+|  USER  | ---> |  AGENT  | ---> |  LOGIC  | ---> |  TOOLS  | ---> | MEMORY  |
+|Request |      |Activates|      |Understands|    |Searches |      |Stores   |
++--------+      +---------+      +---------+      +---------+      +---------+
+       1️⃣ Request     2️⃣ Activate     3️⃣ Understand     4️⃣ Search     5️⃣ Store
+🧠 Key Idea:  
+LangChain is linear orchestration — each component runs sequentially.
+Useful for prompt chaining, tool calling, and memory‑based chatbots.
+
+🌐 LangGraph (Branching Flow)
+LangGraph models workflows as nodes and edges — multiple agents can run in parallel or conditionally.
+Perfect for multi‑agent orchestration and goal‑based autonomy.
+
+text
+        +---------+
+        |  USER   |
+        | Request |
+        +----+----+
+             |
+             v
+      +------+------+
+      | LangGraph   |
+      | Orchestrator|
+      +------+------+
+             |
+   -------------------------
+   |           |           |
+   v           v           v
++------+   +------+   +------+
+|Flights|  |Hotels |  |Weather|
++---+--+   +---+--+   +---+--+
+    |          |          |
+    v          v          v
+   -------------------------
+             |
+             v
+        +---------+
+        |  Budget |
+        | Optimizer|
+        +----+----+
+             |
+             v
+        +---------+
+        |   END   |
+        +---------+
+🧠 Key Idea:  
+LangGraph is graph orchestration — nodes represent agents, edges define transitions.
+It supports branching, parallel execution, retry/fallback, and memory persistence.
+
+
