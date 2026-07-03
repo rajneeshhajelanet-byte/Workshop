@@ -1,5 +1,8 @@
 
 # 👥 CrewAI – Collaborative Agent Framework
+
+<img width="634" height="473" alt="image" src="https://github.com/user-attachments/assets/b573fadd-2907-47a6-8a0d-18d9094580a9" />
+
 <img width="1274" height="619" alt="image" src="https://github.com/user-attachments/assets/d398f904-b10d-4c01-9dec-17ddd3cdd318" />
 <img width="1364" height="568" alt="image" src="https://github.com/user-attachments/assets/92674be4-0ce0-4ff5-aacf-7b4089ecffb9" />
 https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/deploy-agentic-systems-on-amazon-bedrock-with-the-crewai-framework.html
