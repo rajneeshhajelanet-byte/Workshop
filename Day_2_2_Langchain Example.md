@@ -22,6 +22,9 @@ LangChain solves this by providing:
 # ⚙️ LangChain Example – Database + Azure OpenAI Integration
 
 ## 2. Step‑by‑Step
+from langchain.chat_models import AzureChatOpenAI
+from langchain.sql_database import SQLDatabase
+from langchain.agents import initialize_agent, AgentType
 
 ### 🧠 Connect to Azure OpenAI
 ```python
