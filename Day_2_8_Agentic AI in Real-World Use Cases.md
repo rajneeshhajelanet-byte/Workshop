@@ -67,3 +67,7 @@ We’ve explored the evolution of agentic AI:
 - **Education** → tutoring, content creation, research.  
 
 👉 Agentic AI is not just theory — it’s already transforming industries by combining **autonomy, collaboration, and integration**.
+
+
+<img width="1536" height="1024" alt="Copilot_20260703_173445" src="https://github.com/user-attachments/assets/6a5b86b0-f275-42ba-9779-ca29b611fffa" />
+
