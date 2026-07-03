@@ -1,7 +1,19 @@
 # Executive Workshop: Agentic AI & Enterprise Transformation
 
 ## 📘 Program Vision
-This program blends **Agentic AI expertise** with **DevOps, MLOps, FinOps, AIOps, Deep Learning (PyTorch & TensorFlow)** to give participants a **complete lifecycle view**: from development and deployment to monitoring, governance, and cost optimization. It prepares leaders and engineers to **architect, implement, and govern AI systems** at enterprise scale.
+This program blends expertise across multiple domains to give participants a **complete lifecycle view** of enterprise AI adoption. It prepares leaders and engineers to **architect, implement, and govern AI systems** at scale.
+
+Key focus areas include:
+- **Agentic AI (Multi‑agent orchestration, Semantic Kernel, LangChain, CrewAI, AutoGen)**  
+- **DevOps (CI/CD pipelines, Docker, Kubernetes, Jenkins)**  
+- **MLOps (Model monitoring, retraining pipelines, drift detection)**  
+- **FinOps (Cost governance, dashboards, chargeback/showback, ROI modeling)**  
+- **AIOps (Data selection, pattern discovery, anomaly detection, automation)**  
+- **Deep Learning (PyTorch & TensorFlow)**  
+- **Vector Databases (Pinecone, FAISS, Weaviate, Chroma)**  
+- **LLM Providers (Azure OpenAI, Hugging Face, AWS Bedrock, Anthropic, Meta AI)**  
+- **Cloud AI Services (Azure AI Foundry, AWS SageMaker, GCP Vertex AI)**  
+- **Governance & Architecture (TOGAF ADM, ADLC, AVP mindset)**  
 
 ---
 
@@ -111,11 +123,13 @@ See full details in [Extended 15-Day Program](https://github.com/rajneeshhajelan
 
 ## 🏆 Program Outcomes
 By the end of this program, participants will:
-- Gain **doctoral‑level mastery** of AI orchestration, DevOps, MLOps, FinOps, AIOps, PyTorch, TensorFlow  
+- Gain **doctoral‑level mastery** of Agentic AI, DevOps, MLOps, FinOps, AIOps, Deep Learning, and Governance  
 - Be able to design **logical + physical blueprints** for AI transformation  
 - Apply **due diligence frameworks** (pain points, KPIs, risk assessment, gap analysis)  
-- Deploy **agentic AI solutions** with microservices, APIs, VectorDBs, and cloud AI services  
+- Deploy **enterprise‑grade AI solutions** with microservices, APIs, VectorDBs, and cloud AI services  
 - Govern AI adoption with **TOGAF ADM, ADLC, FinOps, AIOps**  
 - Confidently answer **CXO‑level interview questions** on AI agents  
+
+---
 
 ---
