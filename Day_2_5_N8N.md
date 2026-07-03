@@ -72,18 +72,43 @@ It integrates seamlessly with external systems (Sheets, Slack, APIs).
 - **CrewAI**
   - Multi-agent by design: agents + tasks form a crew.  
   - Flows for event-driven orchestration of tasks and triggers.  
+
+Agents: These are the fundamental actors. Each agent is a specialized, role-playing entity defined by a role, goal, and backstory.
+Tasks: These are the specific assignments given to agents. Each task has a clear description and an expected output, defining what the agent needs to accomplish.
+Crews: A crew is the orchestrating entity that brings agents and tasks together. It manages the agents and defines the overall process they will follow to achieve a collective goal
+
+<img width="634" height="473" alt="image" src="https://github.com/user-attachments/assets/fe2cdedd-22db-4397-afc9-23f7dd8f8944" />
+
 - **n8n**
   - AI agents treated as nodes inside workflows.  
   - Supports tool use and step-by-step reasoning via LangChain-based agents.  
   - Output parsers ensure structured results.  
-
+<img width="1170" height="658" alt="image" src="https://github.com/user-attachments/assets/0de5a430-ce3b-4bee-b26d-d200b8863fd7" />
+n8n, the primary entity is the workflow, not the agent.
 ---
 
 ## 2. Workflow Authoring
 - **CrewAI**
   - Code-first approach (Python SDK + YAML configs).  
   - CLI available to scaffold projects.  
-  - Crew Studio UI (visual editor) available in enterprise edition.  
+  - Crew Studio UI (visual editor) available in enterprise edition.
+
+from crewai import Agent, Crew, Process
+
+# Define two agents
+analyst = Agent(role="Analyst", llm_model="gpt-4")
+assistant = Agent(role="Assistant", llm_model="gpt-4", tools=[...])
+
+# Define tasks and assign agents
+tasks = [
+    {"task": "Analyze quarterly sales data", "agent": analyst},
+    {"task": "Draft insights report", "agent": assistant, "human_input": True}
+]
+
+# Create a crew with a sequential process
+crew = Crew(agents=[analyst, assistant], tasks=tasks, process=Process.sequential)
+crew.run()  # Execute the workflow
+
 - **n8n**
   - Low-code canvas with drag-and-drop nodes.  
   - Extensive templates library for quick starts.  
@@ -94,20 +119,47 @@ It integrates seamlessly with external systems (Sheets, Slack, APIs).
 ## 3. Multi-Agent Patterns
 - **CrewAI**
   - Core capability: sequential and hierarchical agent processes.  
-  - Future roadmap includes consensual (team voting) mode.  
+  - Future roadmap includes consensual (team voting) mode.
+
+from crewai import Crew, Process
+
+# Example: Creating a crew with a sequential process
+crew = Crew(
+    agents=my_agents,
+    tasks=my_tasks,
+    process=Process.sequential
+)
+
+# Example: Creating a crew with a hierarchical process
+# Ensure to provide a manager_llm or manager_agent
+crew = Crew(
+    agents=my_agents,
+    tasks=my_tasks,
+    process=Process.hierarchical,
+    manager_llm="gpt-4o"
+    # or
+    # manager_agent=my_manager_agent
+)
+
 - **n8n**
   - Achieved by chaining multiple agent nodes or sub-workflows.  
   - Built-in nodes for common patterns (e.g., Plan-and-Execute for planner/executor).  
+<img width="1174" height="578" alt="image" src="https://github.com/user-attachments/assets/7885736c-dd95-4b6f-b20c-fbc2f9b6dd63" />
 
 ---
 
 ## 4. Human-in-the-Loop (HITL)
 - **CrewAI**
   - Native HITL workflow support: pause an agent task for human review/approval.  
-  - Resume via API or Webhook after human validation.  
+  - Resume via API or Webhook after human validation.
+
+
+<img width="624" height="165" alt="image" src="https://github.com/user-attachments/assets/06aa7692-d6fb-4aae-8d26-f03a9adacb6f" />
+
 - **n8n**
   - Human oversight implemented with building blocks (Wait + email/chat/webhooks/forms).  
   - No dedicated HITL node, but flexible to integrate manual checkpoints.  
+<img width="1258" height="430" alt="image" src="https://github.com/user-attachments/assets/3729ad54-1a99-4d73-82ec-d452ce0b6876" />
 
 ---
 
