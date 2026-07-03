@@ -65,6 +65,8 @@ def ui_request():
     return {"flights": flights, "hotels": hotels}
 
 print(ui_request())
+
+====================================================================================================================================
 Agentic AI Orchestration Layer
 python
 import random
