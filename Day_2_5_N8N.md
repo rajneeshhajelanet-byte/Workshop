@@ -1,5 +1,7 @@
 markdown
 # ⚖️ CrewAI vs n8n – Key Differences and Agentic Workflows
+CrewAI vs n8n: Key Differences and Which Platform Wins for AI Agents
+https://www.zenml.io/blog/crewai-vs-n8n
 
 ## 1. Introduction
 Both **CrewAI** and **n8n** enable agentic workflows, but they approach orchestration differently:
