@@ -169,10 +169,3 @@ Highlight the difference → task execution vs goal pursuit.
 
 ====================================================================================================================================
 
-
-✅ This Markdown file is **ready to paste**. It flows like a teaching module:
-- Explains **Generative AI, AI Agent, Agentic AI**  
-- Shows **examples and code** step‑by‑step  
-- Ends with a **teaching flow** so you can present it smoothly  
-
-Would you like me to also add a **comparison table** (Generative AI vs AI Agent vs Agentic AI) at the top, so learners immediately see the distinctions before diving into examples?
