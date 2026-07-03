@@ -28,7 +28,6 @@ This program blends expertise across multiple domains to give participants a **c
 - [Day 3 – Generative AI & Tooling](https://github.com/rajneeshhajelanet-byte/Workshop/blob/main/Day_3%20Generative%20AI%20%26%20Tooling.md)
 - [Day 4 – Enterprise Projects](https://github.com/rajneeshhajelanet-byte/Workshop/blob/main/Day_4%20Projects.md)
 - [Day 5 – Governance & AI Lifecycle](https://github.com/rajneeshhajelanet-byte/Workshop/blob/main/Day_5%20Governance%20and%20AI%20Lifecycle.md)
-- [Extended 15-Day Program](https://github.com/rajneeshhajelanet-byte/Workshop/blob/main/15days_program.md)
 
 ---
 
