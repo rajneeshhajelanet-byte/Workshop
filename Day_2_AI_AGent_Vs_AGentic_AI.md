@@ -49,10 +49,12 @@ Agentic AI adds a **goal‑based orchestration layer** on top of your agents:
 - **Reasoning layer**: evaluates results against the goal and replans if needed.  
 
 ---
+markdown
+# 🤖 Code Examples – AI Agent vs Agentic AI vs RAG
 
-## 5. Code Examples
+## 1. Simplified AI Agent Call
+This is a **basic AI Agent** example. Each agent is hardcoded, and the UI decides which one to call.
 
-### Simplified AI Agent Call
 ```python
 # Individual agents
 def flight_agent(query):
@@ -68,9 +70,12 @@ def ui_request():
     return {"flights": flights, "hotels": hotels}
 
 print(ui_request())
+👉 This is an AI Agent setup: task‑based, static orchestration.
 
-====================================================================================================================================
-Agentic AI Orchestration Layer
+2. Agentic AI Orchestration Layer
+Here, we add goal‑based orchestration, memory, and adaptation.
+The orchestrator decides which agents to call, retries on failure, and stores results.
+
 python
 import random
 
@@ -121,10 +126,12 @@ def orchestrator(goal):
 # Example run
 trip_plan = orchestrator("Plan 7-day Delhi trip under ₹1.3 lakh")
 print(trip_plan)
+👉 This is Agentic AI: dynamic orchestration, memory, reasoning, retries.
 
-====================================================================================================================================
+3. Embedding‑Based Agent Selection
+This example uses semantic similarity (embeddings) to select the right agent.
+It’s a simple RAG‑style approach: query → embedding → match agent description.
 
-Embedding‑Based Agent Selection
 python
 from sentence_transformers import SentenceTransformer, util
 
@@ -153,19 +160,24 @@ def find_agent(task):
 agent = find_agent("keep expenses low")
 result = agent("Plan trip under ₹1.3 lakh")
 print(result)
+👉 This is RAG‑style agent selection:
 
-====================================================================================================================================
+Instead of keyword routing, embeddings are used to match intent to agent descriptions.
 
-6.  Flow
-Generative AI → show it as the raw engine (LLM generating text/code).
+It’s not full RAG (like document retrieval), but the principle is the same: semantic similarity search.
 
-Move to AI Agents → show how GenAI is wrapped with APIs/tools to execute tasks.
+4. Teaching Flow
+Step 1 → Show AI Agent (static orchestration).
 
-Introduce Agentic AI → show orchestration, memory, and reasoning for goal‑based autonomy.
+Step 2 → Show Agentic AI (goal‑based orchestration, memory, retries).
 
-Demonstrate with code → first static agents, then Agentic AI orchestrator, then embedding‑based agent selection.
+Step 3 → Show Embedding‑based agent selection (RAG‑style semantic routing).
 
-Highlight the difference → task execution vs goal pursuit.
+Step 4 → Compare them:
 
-====================================================================================================================================
+AI Agent → task executor
+
+Agentic AI → goal pursuer
+
+RAG → semantic retrieval for smarter agent selection
 
