@@ -147,8 +147,8 @@ def find_agent(task):
 agent = find_agent("keep expenses low")
 result = agent("Plan trip under ₹1.3 lakh")
 print(result)
-6. Teaching Flow
-Start with Generative AI → show it as the raw engine (LLM generating text/code).
+6.  Flow
+Generative AI → show it as the raw engine (LLM generating text/code).
 
 Move to AI Agents → show how GenAI is wrapped with APIs/tools to execute tasks.
 
