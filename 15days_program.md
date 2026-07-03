@@ -1,7 +1,7 @@
 # Extended Program – Agentic AI & Enterprise Transformation (15 Days)
 
 ## Program Vision
-This extended format provides **doctoral‑level depth** across 15 days (2 hours/day). Each of the 5 core themes is expanded into **3 sub‑days** with deeper technical labs, enterprise case studies, and research assignments. Participants will master **Agentic AI, DevOps, MLOps, FinOps, AIOps, Governance, and TOGAF ADM** end‑to‑end.
+This extended format provides **doctoral‑level depth** across 15 days (8 hours/day). Each of the 5 core themes is expanded into **3 sub‑days** with deeper technical labs, enterprise case studies, and research assignments. Participants will master **Agentic AI, PyTorch, TensorFlow, DevOps, MLOps, FinOps, AIOps, Governance, and TOGAF ADM** end‑to‑end.
 
 ---
 
@@ -59,8 +59,10 @@ This extended format provides **doctoral‑level depth** across 15 days (2 hours
 
 ### Day 9 – Database Observability & MLOps
 - Postgres agents, Datadog, CloudWatch  
+- **PyTorch & TensorFlow** – training deep learning models for fraud/compliance  
 - CI/CD for ML, model monitoring, retraining pipelines  
-- Lab: DB observability agent + MLOps lifecycle  
+- Lab: Train a fraud detection model in PyTorch + deploy with TensorFlow Serving  
+- Lab: Integrate retraining triggers with MLOps lifecycle  
 
 ---
 
@@ -122,7 +124,7 @@ This extended format provides **doctoral‑level depth** across 15 days (2 hours
 
 ## Program Outcomes
 By the end of this **15‑day program**, participants will:
-- Gain **doctoral‑level mastery** of Agentic AI, DevOps, MLOps, FinOps, and AIOps  
+- Gain **doctoral‑level mastery** of Agentic AI, PyTorch, TensorFlow, DevOps, MLOps, FinOps, and AIOps  
 - Design **logical + physical blueprints** for AI transformation  
 - Apply **due diligence frameworks** (pain points, KPIs, risk assessment, gap analysis)  
 - Deploy **enterprise‑grade AI solutions** with microservices, APIs, VectorDBs, and cloud AI services  
