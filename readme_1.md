@@ -6,12 +6,12 @@ This program blends **Agentic AI expertise** with **DevOps, MLOps, FinOps, AIOps
 ---
 
 ## 🧩 Program Navigation
-- [Day 1 – Foundations & Development](Day_1_Foundations.md)
-- [Day 2 – Advanced Orchestration & DevOps](Day_2_Orchestration.md)
-- [Day 3 – Enterprise Projects & MLOps](Day_3_Enterprise.md)
-- [Day 4 – Cloud AI Services & AIOps](Day_4_Tooling.md)
-- [Day 5 – Governance, FinOps & ADLC](Day_5_Governance.md)
-- [Extended 15-Day Program](Extended_Program.md)
+- [Day 1 – Foundations & Development](https://github.com/rajneeshhajelanet-byte/Workshop/blob/main/Day_1%20Foundations.md)
+- [Day 2 – Advanced Orchestration & DevOps](https://github.com/rajneeshhajelanet-byte/Workshop/blob/main/Day_2%20Advanced%20Orchestration.md)
+- [Day 3 – Generative AI & Tooling](https://github.com/rajneeshhajelanet-byte/Workshop/blob/main/Day_3%20Generative%20AI%20%26%20Tooling.md)
+- [Day 4 – Enterprise Projects](https://github.com/rajneeshhajelanet-byte/Workshop/blob/main/Day_4%20Projects.md)
+- [Day 5 – Governance & AI Lifecycle](https://github.com/rajneeshhajelanet-byte/Workshop/blob/main/Day_5%20Governance%20and%20AI%20Lifecycle.md)
+- [Extended 15-Day Program](https://github.com/rajneeshhajelanet-byte/Workshop/blob/main/15days_program.md)
 
 ---
 
@@ -36,20 +36,20 @@ This program blends **Agentic AI expertise** with **DevOps, MLOps, FinOps, AIOps
 
 ## 📅 Program Structure (5 Days Intensive)
 
-### [Day 1 – Foundations & Development](Day_1_Foundations.md)
+### [Day 1 – Foundations & Development](https://github.com/rajneeshhajelanet-byte/Workshop/blob/main/Day_1%20Foundations.md)
 - Python essentials, APIs, FastAPI/Uvicorn  
 - LLM architecture: tokens, embeddings, transformer layers  
 - RAG pipeline: ingestion, retrieval, embeddings  
 - Hands‑on: Build semantic search with VectorDB  
 
-### [Day 2 – Orchestration & DevOps](Day_2_Orchestration.md)
+### [Day 2 – Advanced Orchestration & DevOps](https://github.com/rajneeshhajelanet-byte/Workshop/blob/main/Day_2%20Advanced%20Orchestration.md)
 - AI Agents vs Agentic AI  
 - Multi‑agent orchestration (LangGraph, CrewAI, AutoGen, Semantic Kernel)  
 - Workflow automation with N8n  
 - DevOps Integration: Jenkins pipelines, Docker, Kubernetes  
 - Hands‑on: Deploy agent microservices with CI/CD  
 
-### [Day 3 – Enterprise Projects & MLOps](Day_3_Enterprise.md)
+### [Day 3 – Generative AI & Tooling](https://github.com/rajneeshhajelanet-byte/Workshop/blob/main/Day_3%20Generative%20AI%20%26%20Tooling.md)
 - Compliance automation (KYB/AML)  
 - Fraud detection with Otera AI  
 - Database observability with Postgres + Datadog/CloudWatch  
@@ -57,14 +57,14 @@ This program blends **Agentic AI expertise** with **DevOps, MLOps, FinOps, AIOps
 - Deep Learning: PyTorch & TensorFlow labs  
 - Hands‑on: Build DB observability agents + integrate MLOps lifecycle  
 
-### [Day 4 – Cloud AI Services & AIOps](Day_4_Tooling.md)
+### [Day 4 – Enterprise Projects](https://github.com/rajneeshhajelanet-byte/Workshop/blob/main/Day_4%20Projects.md)
 - Azure AI Foundry, Azure OpenAI, Cognitive Services (Vision, Speech, Language)  
 - Document Intelligence + Conversational AI (OCR/NLP, speech recognition)  
 - AWS SageMaker + S3, GCP Vertex AI  
 - AIOps Integration: data selection, pattern discovery, influence, collaboration, automation  
 - Hands‑on: Deploy multimodal agents + AIOps monitoring  
 
-### [Day 5 – Governance, FinOps & ADLC](Day_5_Governance.md)
+### [Day 5 – Governance & AI Lifecycle](https://github.com/rajneeshhajelanet-byte/Workshop/blob/main/Day_5%20Governance%20and%20AI%20Lifecycle.md)
 - AI governance frameworks  
 - Security layers: IAM OIDC, TLS, guardrails  
 - FinOps: dashboards, chargeback/showback, spend optimization  
@@ -82,7 +82,7 @@ Each day above can be expanded into **3 days of deep dive**:
 - Day 4 → Cloud AI services + AIOps  
 - Day 5 → Governance, FinOps, ADLC, TOGAF ADM  
 
-See full details in [Extended 15-Day Program](Extended_Program.md).
+See full details in [Extended 15-Day Program](https://github.com/rajneeshhajelanet-byte/Workshop/blob/main/15days_program.md).
 
 ---
 
