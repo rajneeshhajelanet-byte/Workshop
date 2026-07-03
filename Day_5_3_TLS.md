@@ -1,7 +1,7 @@
 https://www.geeksforgeeks.org/computer-networks/transport-layer-security-tls/
 
 markdown
-# 🔐 Day 2.11 – Transport Layer Security (TLS) for APIs
+# 🔐  Transport Layer Security (TLS) for APIs
 
 ## 1. Introduction
 **Transport Layer Security (TLS)** is the protocol that secures communication between clients and servers.  
