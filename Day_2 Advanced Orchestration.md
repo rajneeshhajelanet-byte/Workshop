@@ -28,7 +28,7 @@ Day 2 focuses on **multi‑agent orchestration frameworks** and how they integra
 
 ### Hands‑on Lab
 - Create a **multi‑agent orchestration pipeline** using **LangGraph + LangChain** (Python‑native).  
-- Implement **retry/fallback logic** for agent failures.  
+- Implement **retry/fallback logic** for agent failures.   
 
 ---
 
