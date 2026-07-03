@@ -1,4 +1,6 @@
 
+<img width="568" height="345" alt="image" src="https://github.com/user-attachments/assets/5b474010-5f81-40af-a5e5-0c440f38c831" />
+
 # 🤖 Generative AI vs AI Agent vs Agentic AI
 
 ## 1. Generative AI
