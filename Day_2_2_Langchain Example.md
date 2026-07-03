@@ -30,3 +30,71 @@ llm = AzureChatOpenAI(
     openai_api_version="2024-12-01-preview",
     temperature=0
 )
+
+🗄 Connect to Postgres via SQLDatabase
+python
+from langchain.sql_database import SQLDatabase
+
+db = SQLDatabase.from_uri("postgresql+psycopg2://user:password@host:5432/dbname")
+🛠 Wrap Database as a Tool
+python
+from langchain.agents import Tool
+
+db_tool = Tool(
+    name="DatabaseQuery",
+    func=db.run,
+    description="Run SQL queries and return results"
+)
+
+🤖 Initialize Agent with Tool
+python
+from langchain.agents import initialize_agent, AgentType
+
+agent = initialize_agent(
+    tools=[db_tool],
+    llm=llm,
+    agent_type=AgentType.ZERO_SHOT_REACT_DESCRIPTION,
+    verbose=True
+)
+▶️ Run a Query
+python
+response = agent.run("Find the top 5 customers by revenue")
+print(response)
+3. Dependencies
+text
+# Core LangChain framework
+langchain>=0.2.0
+
+# Azure OpenAI integration
+langchain-openai>=0.1.0
+openai>=1.0.0
+
+# Database connectors
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.9
+
+# Environment variable loader
+python-dotenv>=1.0.0
+
+# Optional: community integrations
+langchain-community>=0.0.30
+4. Key Notes
+LangChain → core orchestration framework
+
+langchain-openai → Azure OpenAI connector
+
+sqlalchemy + psycopg2 → required for SQLDatabase.from_uri
+
+python-dotenv → loads secrets from .env
+
+langchain-community → extra tools, retrievers, loaders
+
+📊 Comparison: Custom Framework vs LangChain
+Aspect	Custom Framework	LangChain
+Routing	Manual keyword router	Built‑in agent routing
+Agents	DB, Excel, LLM (hand‑written)	Tools wrapped automatically
+Transparency	Full control over orchestration	Abstracted orchestration
+Dependencies	Minimal (psycopg2, openai)	Larger (LangChain ecosystem)
+Flexibility	Highly customizable	Faster prototyping
+Streaming	Manual StreamingResponse	Built‑in callbacks
+Knowledge Base	Manual Excel integration	Pluggable retrievers/loaders
