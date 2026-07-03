@@ -4,7 +4,7 @@
 This program blends expertise across multiple domains to give participants a **complete lifecycle view** of enterprise AI adoption. It prepares leaders and engineers to **architect, implement, and govern AI systems** at scale.
 
 Key focus areas include:
-- **Agentic AI (Multi‑agent orchestration, Semantic Kernel, LangChain, CrewAI, AutoGen)**  
+- **RAG, AI Agents, Agentic AI (Multi‑agent orchestration, Semantic Kernel, LangChain, CrewAI, AutoGen, Custom Framework)**  
 - **DevOps (CI/CD pipelines, Docker, Kubernetes, Jenkins)**  
 - **MLOps (Model monitoring, retraining pipelines, drift detection)**  
 - **FinOps (Cost governance, dashboards, chargeback/showback, ROI modeling)**  
