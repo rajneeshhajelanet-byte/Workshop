@@ -1,4 +1,6 @@
 # ⚙️ Custom Orchestration Framework – Database + LLM Integration
+Github Link: https://github.com/oterademoacrisure-arch/EDDI-Chatbot
+
 
 ## 1. Overview
 Instead of relying on heavy frameworks like LangChain, we built our own **lightweight orchestration layer**.  
