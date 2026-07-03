@@ -65,14 +65,14 @@ Slack Node → Send formatted message
 It integrates seamlessly with external systems (Sheets, Slack, APIs).
 
 5. CrewAI vs n8n – Comparison Table
-Aspect	CrewAI	n8n
-Primary Entity	Agents + Crews	Workflows + Nodes
-Language	Python framework	Node-based visual editor
-Focus	Autonomous multi-agent collaboration	Hybrid automation with AI nodes
-Integrations	Code/YAML, enterprise tools	1,000+ built-in connectors
-Agent Definition	Role, goal, backstory	AI Agent node inside workflow
-Best Use Case	Research, coding, analysis	Business process automation + AI reasoning
-Strength	Precise control, agent autonomy	Easy integration, visual orchestration
+## 📊 CrewAI vs n8n – Feature Comparison
+
+| Feature            | **CrewAI**                                                                 | **n8n**                                                                 |
+|--------------------|-----------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| **Agentic Workflows** | - Multi-agent by design (agents + tasks form a crew) <br> - Flows for event-driven orchestration of tasks and triggers | - AI agents treated as nodes in workflows <br> - Support for tool use and step-by-step reasoning via LangChain-based agents, with output parsers for structured results |
+| **Workflow Authoring** | - Code-first (Python SDK + YAML configs) <br> - CLI to scaffold projects <br> - Crew Studio UI (visual editor) available in enterprise | - Low-code canvas <br> - Drag-and-drop nodes with an extensive templates library <br> - Code nodes allow custom logic, but basic flows require no code |
+| **Multi-Agent Patterns** | - Core capability – supports sequential and hierarchical agent processes <br> - A future consensual (team voting) mode is planned | - Achieved by chaining multiple agent nodes or sub-workflows <br> - Includes built-in nodes for common patterns (e.g., Plan-and-Execute for planner/executor) |
+| **Human-in-the-Loop** | - Built-in HITL workflow support: pause an agent task for human review/approval, then resume via API/Webhook | - Human oversight is implemented with building blocks (e.g., Wait + email/chat/webhooks/forms) <br> - There’s no dedicated "HITL" node |
 
 
 6. Moving from CrewAI → n8n
