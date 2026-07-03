@@ -89,12 +89,5 @@ python-dotenv → loads secrets from .env
 
 langchain-community → extra tools, retrievers, loaders
 
-📊 Comparison: Custom Framework vs LangChain
-Aspect	Custom Framework	LangChain
-Routing	Manual keyword router	Built‑in agent routing
-Agents	DB, Excel, LLM (hand‑written)	Tools wrapped automatically
-Transparency	Full control over orchestration	Abstracted orchestration
-Dependencies	Minimal (psycopg2, openai)	Larger (LangChain ecosystem)
-Flexibility	Highly customizable	Faster prototyping
-Streaming	Manual StreamingResponse	Built‑in callbacks
-Knowledge Base	Manual Excel integration	Pluggable retrievers/loaders
+<img width="487" height="220" alt="image" src="https://github.com/user-attachments/assets/bc178f17-0e36-4ce6-a59d-86202386be09" />
+
