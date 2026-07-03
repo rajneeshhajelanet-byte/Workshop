@@ -1,7 +1,7 @@
 # Executive Workshop: Agentic AI & Enterprise Transformation
 
 ## Program Vision
-We have designed one of the **CXO‑level applied programs in Agentic AI and Generative AI**.  
+We have designed one of the world’s first **CXO‑level applied programs in Agentic AI and Generative AI**.  
 This workshop empowers leaders, architects, and innovators to **master technical depth** while aligning AI with **enterprise governance, compliance, and ROI outcomes**.  
 
 By enrolling, participants will gain the confidence to **lead technical and business teams**, architect **autonomous agent frameworks**, and drive their organizations to become **digital innovators**.
@@ -12,7 +12,8 @@ By enrolling, participants will gain the confidence to **lead technical and busi
 - **Foundations of AI & LLMs** – RAG pipelines, embeddings, NLP basics  
 - **Advanced Agentic Orchestration** – LangGraph, CrewAI, AutoGen, N8n flows  
 - **Enterprise Case Studies** – Compliance automation, fraud detection, database observability  
-- **Generative AI Tooling** – Azure OpenAI, Amazon Bedrock, multimodal agents  
+- **Generative AI Tooling** – Azure AI Foundry, Azure OpenAI, Cognitive Services (Vision, Speech, Language), Document Intelligence, Conversational AI  
+- **Cloud & AI Services** – Azure AI Foundry/Agent Service, Copilot Studio, AWS SageMaker, S3, GCP Vertex AI  
 - **Governance & Lifecycle** – Security, FinOps, AIOps, MLOps, compliance frameworks  
 
 ---
@@ -27,7 +28,7 @@ By enrolling, participants will gain the confidence to **lead technical and busi
 
 ### Day 2 – Orchestration
 - AI Agents vs Agentic AI  
-- Multi‑agent orchestration frameworks (LangGraph, CrewAI, AutoGen)  
+- Multi‑agent orchestration frameworks (LangGraph, CrewAI, AutoGen, Semantic Kernel)  
 - Workflow automation with N8n  
 - **Hands‑on Lab**: Build an agent registry with semantic matching  
 
@@ -38,17 +39,18 @@ By enrolling, participants will gain the confidence to **lead technical and busi
 - **Hands‑on Lab**: Build DB observability agents  
 
 ### Day 4 – Tooling
-- Azure OpenAI integration  
-- Amazon Bedrock orchestration + SageMaker endpoints  
-- Multimodal agents (Vision, Speech, Document Intelligence)  
-- **Hands‑on Lab**: Deploy fraud/risk/compliance agents  
+- Azure AI Foundry integration  
+- Azure OpenAI Service + Cognitive Services (Vision, Speech, Language)  
+- Document Intelligence & Conversational AI (chat/voice, OCR/NLP pipelines, speech recognition)  
+- AWS Bedrock orchestration + SageMaker endpoints  
+- **Hands‑on Lab**: Deploy multimodal agents for enterprise workflows  
 
 ### Day 5 – Governance & Lifecycle
 - AI governance frameworks  
 - Security layers: IAM OIDC, TLS, guardrails  
 - FinOps cost governance  
 - Agentic SDLC: design → build → test → deploy  
-- **Hands‑on Lab**: Deploy secure orchestration flows with Kubernetes  
+- **Hands‑on Lab**: Deploy secure orchestration flows with Kubernetes + IAM OIDC  
 
 ---
 
