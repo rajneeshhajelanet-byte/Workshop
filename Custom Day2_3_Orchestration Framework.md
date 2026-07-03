@@ -57,3 +57,32 @@ This gave us:
                                                | JSON Optimized   |
                                                | SQL Response     |
                                                +------------------+
+
+
+
+Example
+class PostgresClient:
+    def __init__(self, config):
+        self.config = config
+
+    def execute_query(self, sql):
+        conn = psycopg2.connect(**self.config, sslmode='require')
+        cur = conn.cursor(cursor_factory=extras.RealDictCursor)
+        cur.execute(sql)
+        res = cur.fetchall() if cur.description else [{"message": "Success"}]
+        conn.close()
+        return res
+
+    def investigate(self, sql):
+        wrapped = f"EXPLAIN (ANALYZE, BUFFERS, FORMAT JSON) {sql.strip().rstrip(';')}"
+        raw_output = self.execute_query(wrapped)
+        plan_root = raw_output[0]['QUERY PLAN'][0]
+        plan_details = plan_root.get('Plan', {})
+        return {
+            "exec_time": plan_root.get('Execution Time', 0),
+            "hits": plan_details.get('Shared Hit Blocks', 0),
+            "reads": plan_details.get('Shared Read Blocks', 0),
+            "is_scan": "Seq Scan" in str(plan_details),
+            "total_cost": plan_details.get('Total Cost', 0)
+        }
+
