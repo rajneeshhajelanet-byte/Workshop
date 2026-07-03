@@ -18,16 +18,19 @@ Day 2 focuses on **multi‑agent orchestration frameworks** and how they integra
 
 ---
 
-### 2. Orchestration Frameworks
-- **[LangChain](ca://s?q=LangChain_framework)** – chaining prompts, tools, and memory  
-- **[LangGraph](ca://s?q=LangGraph_for_multi_agent)** – graph‑based orchestration  
-- **[CrewAI](ca://s?q=CrewAI_multi_agent_framework)** – collaborative agent workflows  
-- **[AutoGen](ca://s?q=AutoGen_AI_framework)** – autonomous multi‑agent conversations  
-- **[Semantic Kernel](ca://s?q=Semantic_Kernel_for_AI)** – orchestration + reasoning  
+## 2. Orchestration Frameworks
 
-**Hands‑on Lab**:  
-- Create a **multi‑agent orchestration pipeline** using LangGraph + Semantic Kernel.  
+- **[LangChain](ca://s?q=Learn_about_LangChain)** – chaining prompts, tools, and memory  
+- **[LangGraph](ca://s?q=Learn_about_LangGraph)** – graph‑based orchestration  
+- **[CrewAI](ca://s?q=Learn_about_CrewAI)** – collaborative agent workflows  
+- **[AutoGen](ca://s?q=Learn_about_AutoGen)** – autonomous multi‑agent conversations  
+- **[Semantic Kernel](ca://s?q=Learn_about_Semantic_Kernel)** – orchestration + reasoning (strong in .NET, limited Python support)  
+
+### Hands‑on Lab
+- Create a **multi‑agent orchestration pipeline** using **LangGraph + LangChain** (Python‑native).  
 - Implement **retry/fallback logic** for agent failures.  
+
+---
 
 ---
 
