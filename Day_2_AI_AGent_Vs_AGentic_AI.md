@@ -51,7 +51,7 @@ Agentic AI adds a **goal‑based orchestration layer** on top of your agents:
 ---
 markdown
 # 🤖 Code Examples – AI Agent vs Agentic AI vs RAG
-
+=======================================================================================================================================
 ## 1. Simplified AI Agent Call
 This is a **basic AI Agent** example. Each agent is hardcoded, and the UI decides which one to call.
 
@@ -71,7 +71,7 @@ def ui_request():
 
 print(ui_request())
 👉 This is an AI Agent setup: task‑based, static orchestration.
-
+=======================================================================================================================================
 2. Agentic AI Orchestration Layer
 Here, we add goal‑based orchestration, memory, and adaptation.
 The orchestrator decides which agents to call, retries on failure, and stores results.
@@ -127,7 +127,7 @@ def orchestrator(goal):
 trip_plan = orchestrator("Plan 7-day Delhi trip under ₹1.3 lakh")
 print(trip_plan)
 👉 This is Agentic AI: dynamic orchestration, memory, reasoning, retries.
-
+=======================================================================================================================================
 3. Embedding‑Based Agent Selection
 This example uses semantic similarity (embeddings) to select the right agent.
 It’s a simple RAG‑style approach: query → embedding → match agent description.
