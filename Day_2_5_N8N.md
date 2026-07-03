@@ -65,14 +65,61 @@ Slack Node → Send formatted message
 It integrates seamlessly with external systems (Sheets, Slack, APIs).
 
 5. CrewAI vs n8n – Comparison Table
-## 📊 CrewAI vs n8n – Feature Comparison
 
-| Feature            | **CrewAI**                                                                 | **n8n**                                                                 |
-|--------------------|-----------------------------------------------------------------------------|-------------------------------------------------------------------------|
-| **Agentic Workflows** | - Multi-agent by design (agents + tasks form a crew) <br> - Flows for event-driven orchestration of tasks and triggers | - AI agents treated as nodes in workflows <br> - Support for tool use and step-by-step reasoning via LangChain-based agents, with output parsers for structured results |
-| **Workflow Authoring** | - Code-first (Python SDK + YAML configs) <br> - CLI to scaffold projects <br> - Crew Studio UI (visual editor) available in enterprise | - Low-code canvas <br> - Drag-and-drop nodes with an extensive templates library <br> - Code nodes allow custom logic, but basic flows require no code |
-| **Multi-Agent Patterns** | - Core capability – supports sequential and hierarchical agent processes <br> - A future consensual (team voting) mode is planned | - Achieved by chaining multiple agent nodes or sub-workflows <br> - Includes built-in nodes for common patterns (e.g., Plan-and-Execute for planner/executor) |
-| **Human-in-the-Loop** | - Built-in HITL workflow support: pause an agent task for human review/approval, then resume via API/Webhook | - Human oversight is implemented with building blocks (e.g., Wait + email/chat/webhooks/forms) <br> - There’s no dedicated "HITL" node |
+# ⚖️ CrewAI vs n8n – Agentic Workflow Comparison
+
+## 1. Agentic Workflows
+- **CrewAI**
+  - Multi-agent by design: agents + tasks form a crew.  
+  - Flows for event-driven orchestration of tasks and triggers.  
+- **n8n**
+  - AI agents treated as nodes inside workflows.  
+  - Supports tool use and step-by-step reasoning via LangChain-based agents.  
+  - Output parsers ensure structured results.  
+
+---
+
+## 2. Workflow Authoring
+- **CrewAI**
+  - Code-first approach (Python SDK + YAML configs).  
+  - CLI available to scaffold projects.  
+  - Crew Studio UI (visual editor) available in enterprise edition.  
+- **n8n**
+  - Low-code canvas with drag-and-drop nodes.  
+  - Extensive templates library for quick starts.  
+  - Code nodes allow custom logic, but most flows require no code.  
+
+---
+
+## 3. Multi-Agent Patterns
+- **CrewAI**
+  - Core capability: sequential and hierarchical agent processes.  
+  - Future roadmap includes consensual (team voting) mode.  
+- **n8n**
+  - Achieved by chaining multiple agent nodes or sub-workflows.  
+  - Built-in nodes for common patterns (e.g., Plan-and-Execute for planner/executor).  
+
+---
+
+## 4. Human-in-the-Loop (HITL)
+- **CrewAI**
+  - Native HITL workflow support: pause an agent task for human review/approval.  
+  - Resume via API or Webhook after human validation.  
+- **n8n**
+  - Human oversight implemented with building blocks (Wait + email/chat/webhooks/forms).  
+  - No dedicated HITL node, but flexible to integrate manual checkpoints.  
+
+---
+
+## 5. Key Takeaway
+- **CrewAI** → Best for **autonomous multi-agent collaboration** (research, coding, analysis).  
+- **n8n** → Best for **workflow automation with AI nodes** integrated into business processes.  
+- **Together** → They represent the spectrum of agentic AI adoption:  
+  - CrewAI for autonomy and agent design.  
+  - n8n for integration and enterprise automation.  
+
+---
+
 
 
 6. Moving from CrewAI → n8n
