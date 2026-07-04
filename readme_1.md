@@ -4,7 +4,7 @@
 This program blends expertise across multiple domains to give participants a **complete lifecycle view** of enterprise AI adoption. It prepares leaders and engineers to **architect, implement, and govern AI systems** at scale.
 
 ### Focus Areas
--**Data Science with Python, Numpy, Pandas, Matplotlib, Seaborn, State Model, Model building ** – ingestion, chunking, embeddings, retrieval  
+--**Data Science with Python, Numpy, Pandas, Matplotlib, Seaborn, State Model, Model building** 
 - **RAG (Retrieval‑Augmented Generation)** – ingestion, chunking, embeddings, retrieval  
 - **AI Agents & Agentic AI (Multi‑agent orchestration, Semantic Kernel, LangChain, CrewAI, AutoGen, Custom Frameworks)**  
 - **Workflow Automation (N8n)** – agent pipelines, task automation, integrations  
@@ -20,7 +20,8 @@ This program blends expertise across multiple domains to give participants a **c
 - **Fraud & Compliance (Otera AI)** – AML/KYC automation, anomaly detection  
 - **Governance & Architecture (TOGAF ADM, ADLC)**  
 - **Collaboration Tools (GitHub & GitHub Copilot)**
-- - **MerMaid, Bruno, Postman, Draw.IO**  
+- - **MerMaid, Bruno, Postman, Draw.IO**
+- - **DataBase:MongoDB,POstgressDB**
 
 ---
 
