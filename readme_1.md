@@ -4,7 +4,7 @@
 This program blends expertise across multiple domains to give participants a **complete lifecycle view** of enterprise AI adoption. It prepares leaders and engineers to **architect, implement, and govern AI systems** at scale.
 
 ### Focus Areas
---**Data Science Library: Numpy, Pandas (Data cleaning and data analysis),Scikit (clustering,regression) Matplotlib (Data Visualization), Streamlit (web page for ML Model), Seaborn, State Model, Model building** 
+--**Data Science Library: Numpy (Numeric Calculation, Matrices and array handling), Pandas (Data cleaning and data analysis),Scikit (clustering,regression) Matplotlib (Data Visualization), Streamlit (web page for ML Model), Seaborn, State Model, Model building** 
 - **RAG (Retrieval‑Augmented Generation)** – ingestion, chunking, embeddings, retrieval  
 - **AI Agents & Agentic AI (Multi‑agent orchestration, Semantic Kernel, LangChain, CrewAI, AutoGen, Custom Frameworks)**  
 - **Workflow Automation (N8n)** – agent pipelines, task automation, integrations  
