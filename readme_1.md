@@ -22,7 +22,7 @@ This program blends expertise across multiple domains to give participants a **c
 - **Collaboration Tools (GitHub & GitHub Copilot)**
 - - **MerMaid, Bruno, Postman, Draw.IO**
 - - **DataBase:MongoDB,POstgressDB**
-
+**Prompt patterns: zero‑shot, few‑shot, CoT, ToT, ReAct**
 ---
 
 ## 🧩 Program Navigation
