@@ -85,6 +85,15 @@ This 9‑step strategy integrates **AWS services, AI agents, orchestration frame
 - **AWS SageMaker** retrains models with new telemetry.  
 - Improves confidence scoring for future alerts.  
 - Ensures the system gets **smarter over time**.
+## 10. Deployment Layer (Docker + EKS)
+- Each AI agent is packaged as a **Docker container**.
+- Containers are deployed on **Amazon EKS** for orchestration.
+- EKS provides:
+  - Auto-scaling of agents
+  - Load balancing
+  - Rolling updates
+  - IAM-based secure execution
+- This ensures the architecture is **cloud-native, scalable, and compliant**.
 
 ---
 
