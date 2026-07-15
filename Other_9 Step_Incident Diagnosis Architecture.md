@@ -1,3 +1,4 @@
+
 # 🏦 Banking AI Incident Diagnosis Architecture – 9 Step Strategy
 
 In modern banking infrastructure, incident diagnosis must be **fast, compliant, and intelligent**.  
@@ -108,3 +109,4 @@ This 9‑step strategy integrates **AWS services, AI agents, orchestration frame
 ## 🗣️ Closing
 This 9‑step strategy shows how **Agentic AI + AWS services** can transform banking incident diagnosis.  
 By combining **Routing, Orchestration, Specialized Agents, Pattern Recognition, Guardrails, HITL, Remediation, and Continuous Learning**, banks achieve faster resolution, stronger compliance, and continuous improvement.
+<img width="948" height="537" alt="image" src="https://github.com/user-attachments/assets/ccfe7a30-0f4a-4832-b51e-092630a15f2b" />
