@@ -1,4 +1,4 @@
-# AI/ML & Agentic AI — Detailed Interview & Workshop Prep
+# AI/ML & Agentic AI — Workshop 
 ### For Enterprise/Solution Architect & AI Leadership Roles
 
 This expands the topics from your target JDs into full talking points: **what it is, why interviewers ask it, the answer structure, and how it maps to your PayerIQ project.** Use it to build 2–3 STAR stories, not to memorize definitions.
