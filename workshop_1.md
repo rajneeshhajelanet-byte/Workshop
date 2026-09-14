@@ -1,7 +1,7 @@
 # AI/ML & Agentic AI — Workshop 
 ### For Enterprise/Solution Architect & AI Leadership Roles
 
-This expands the topics from your target JDs into full talking points: **what it is, why interviewers ask it, the answer structure, and how it maps to your PayerIQ project.** Use it to build 2–3 STAR stories, not to memorize definitions.
+This expands the topics from your target JDs into full talking points: **what it is, why interviewers ask it, the answer structure, and how it maps to your project.** Use it to build 2–3 STAR stories, not to memorize definitions.
 
 ---
 
@@ -19,7 +19,7 @@ This expands the topics from your target JDs into full talking points: **what it
 **Interview framing:** "As an architect, I care less about writing kernels in any one framework and more about knowing which one fits the problem, the team's skill set, and the deployment target. For classical tabular problems I'd default to scikit-learn; for anything LLM/agentic, the ecosystem is PyTorch-first (HuggingFace Transformers, PEFT, LangChain internals)."
 
 **Likely question:** *"Have you trained models yourself, or mostly consumed APIs?"*
-Answer honestly and pivot to strength: you're hands-on with the **consumption/integration/orchestration layer** (Azure OpenAI, Azure AI Search, RAG pipelines in PayerIQ) rather than training models from scratch — which is exactly what an *architect* role needs, versus a data scientist role.
+Answer honestly and pivot to strength: you're hands-on with the **consumption/integration/orchestration layer** (Azure OpenAI, Azure AI Search, RAG pipelines in IQ) rather than training models from scratch — which is exactly what an *architect* role needs, versus a data scientist role.
 
 ---
 
@@ -84,7 +84,7 @@ Structure any answer around this pipeline (works for classic ML *and* as an anal
 
 **Advanced patterns worth naming:** ReAct (reasoning + acting interleaved — the backbone of most agent loops), self-consistency (sample multiple CoT paths, vote), tree-of-thought (explore multiple reasoning branches).
 
-**Tie to PayerIQ:** your `openai_service.py` almost certainly separates a system prompt (role: "you are a business analyst generating STTM/FRD documents") from user prompts (the actual requirements ask) — call this out explicitly as a real example of prompt engineering in production.
+**Tie to IQ:** your `openai_service.py` almost certainly separates a system prompt (role: "you are a business analyst generating STTM/FRD documents") from user prompts (the actual requirements ask) — call this out explicitly as a real example of prompt engineering in production.
 
 ---
 
@@ -112,7 +112,7 @@ Structure any answer around this pipeline (works for classic ML *and* as an anal
 | **Chroma** | Self-hosted, dev-friendly | Great for prototyping/local dev, less battle-tested at enterprise scale |
 | **Weaviate** | Self-hosted or managed, GraphQL API | Rich filtering/hybrid search, more operational overhead |
 
-**Your answer:** *"On PayerIQ I used Azure AI Search for both the vector index and hybrid (vector + keyword) retrieval, since it's natively integrated with Azure OpenAI and our document sources were already in SharePoint/Blob via Graph API. For a client without an Azure commitment, I'd evaluate FAISS or Weaviate for self-hosted control, or Pinecone if the team wants zero ops overhead."*
+**Your answer:** *"On IQ I used Azure AI Search for both the vector index and hybrid (vector + keyword) retrieval, since it's natively integrated with Azure OpenAI and our document sources were already in SharePoint/Blob via Graph API. For a client without an Azure commitment, I'd evaluate FAISS or Weaviate for self-hosted control, or Pinecone if the team wants zero ops overhead."*
 
 **Hands-on lab (do this if you haven't):** build a tiny semantic search engine — load a handful of docs → chunk → embed → store in Chroma/FAISS → query. Even 30 minutes of doing this makes your RAG answers noticeably more concrete in interviews.
 
@@ -140,7 +140,7 @@ Structure any answer around this pipeline (works for classic ML *and* as an anal
 ### B5. Model Evaluation
 
 - **Hallucination detection**: does the answer contain claims not supported by the retrieved context?
-- **Groundedness**: can every claim in the output be traced back to a source chunk? (Directly relevant to PayerIQ — a generated STTM/FRD *must* be grounded in the actual source documents, not invented.)
+- **Groundedness**: can every claim in the output be traced back to a source chunk? (Directly relevant to IQ — a generated STTM/FRD *must* be grounded in the actual source documents, not invented.)
 - **Evaluation harnesses**: automated test sets of (question, expected-answer-properties) pairs run against the pipeline on every change.
 - **LLM-as-judge**: use a strong LLM to score another LLM's output against a rubric (relevance, correctness, tone) — cheap, scalable, but has known biases (favors verbose answers, its own family's style) worth naming if asked.
 
@@ -168,7 +168,7 @@ Structure any answer around this pipeline (works for classic ML *and* as an anal
 - **MCP vs. plain API integration**: a hand-rolled integration hardcodes one tool to one model's function-calling format. MCP defines a standard client/server protocol — an MCP *server* exposes tools/resources, and any MCP-*compliant* client (any model that supports it) can discover and call them without custom glue code per model.
 - **MCP vs. OpenAI/Anthropic native tool-calling**: native function-calling is the *mechanism* a model uses to invoke a tool in a single conversation; MCP is the *transport/discovery layer* that can sit underneath that mechanism, standardizing how the tool is described, authenticated, and reached — so the same MCP server can serve multiple model providers' agents.
 
-**Your answer:** *"On PayerIQ I built an MCP server/client pair so the FastAPI backend could expose its document-processing and template-filling capabilities as MCP tools, rather than hardcoding a single integration. That meant the same tool surface could be called by different agent front-ends without re-writing the integration layer each time."* (Adjust to your actual implementation, but this is the kind of framing interviewers want — a *why*, not just a *what*.)
+**Your answer:** *"On IQ I built an MCP server/client pair so the FastAPI backend could expose its document-processing and template-filling capabilities as MCP tools, rather than hardcoding a single integration. That meant the same tool surface could be called by different agent front-ends without re-writing the integration layer each time."* (Adjust to your actual implementation, but this is the kind of framing interviewers want — a *why*, not just a *what*.)
 
 ### C4. Agentic AI Frameworks (know 2+ well)
 
@@ -213,17 +213,17 @@ Classic MLOps = model lifecycle (train → deploy → monitor → retrain on dri
 - **Frameworks to name as reference points**: NIST AI Risk Management Framework (RMF), ISO 42001 (AI management systems).
 - **Responsible AI pillars**: bias/fairness (does the model perform equitably across groups), explainability (can you justify an output to a regulator/auditor), hallucination mitigation (grounding, citations, confidence thresholds, human-in-the-loop for high-stakes outputs).
 - **Security layers for agentic systems**: IAM/OIDC for tool access control, TLS everywhere, output guardrails, and **prompt injection defense** (treating any retrieved/external content as untrusted input that could try to hijack the agent's instructions — a genuinely hot topic right now, worth having an opinion on).
-- **Data privacy for AI**: PII handling in the pipeline — directly relevant to PayerIQ's document-processing work (healthcare payer documents almost certainly touch PII/PHI-adjacent data — be ready to talk about how you handle that, e.g., redaction, access controls, data residency).
+- **Data privacy for AI**: PII handling in the pipeline — directly relevant to IQ's document-processing work (healthcare  documents almost certainly touch PII/PHI-adjacent data — be ready to talk about how you handle that, e.g., redaction, access controls, data residency).
 
 ---
 
 ## PART E — Turning This Into Interview Stories
 
-Your study plan is right that **PayerIQ is your strongest single asset** — it's real, hands-on evidence spanning Tier 1 (RAG), Tier 2 (MCP/agentic), Tier 3 (Azure AI Search/OpenAI), and Tier 7 (document intelligence/BPO-style automation). Don't describe it as one big project — break it into **2–3 STAR-format stories**, each anchored to a different tier:
+Your study plan is right that **IQ is your strongest single asset** — it's real, hands-on evidence spanning Tier 1 (RAG), Tier 2 (MCP/agentic), Tier 3 (Azure AI Search/OpenAI), and Tier 7 (document intelligence/BPO-style automation). Don't describe it as one big project — break it into **2–3 STAR-format stories**, each anchored to a different tier:
 
 1. **RAG/architecture story** — the ingestion → chunking → embedding → Azure AI Search → generation pipeline you built for STTM/FRD generation. Situation (BAs spend hours drafting requirements docs), Task (automate grounded document generation), Action (RAG design decisions — why Azure AI Search, why hybrid search, chunking strategy), Result (time saved, accuracy/groundedness achieved).
 2. **Agentic/MCP story** — why you built an MCP server/client instead of point-to-point API integration, and what that bought you (reusability across agent front-ends, cleaner separation of concerns).
-3. **Governance/data-handling story** — how you handled PII in payer documents, or a security/access-control decision — ties to Tier 6 and shows you think like an *architect*, not just an implementer.
+3. **Governance/data-handling story** — how you handled PII in  documents, or a security/access-control decision — ties to Tier 6 and shows you think like an *architect*, not just an implementer.
 
 **For a workshop**, this same document doubles as a 5-day curriculum outline:
 - **Day 1**: Tier 1 fundamentals + build the semantic search lab.
@@ -237,6 +237,6 @@ Your study plan is right that **PayerIQ is your strongest single asset** — it'
 ## PART F — Active Community Presence
 
 JDs increasingly list this explicitly. It doesn't need to be heavy — consistency beats volume:
-- **LinkedIn**: share a short post whenever you resolve a real design decision (e.g., "why I chose hybrid search over pure vector search for a payer-document RAG system") — this doubles as interview material.
-- **GitHub**: even a clean, well-documented repo of your PayerIQ MCP server/client (sanitized of any client-confidential specifics) is strong signal — architects are expected to *show*, not just describe.
+- **LinkedIn**: share a short post whenever you resolve a real design decision (e.g., "why I chose hybrid search over pure vector search for a -document RAG system") — this doubles as interview material.
+- **GitHub**: even a clean, well-documented repo of your IQ MCP server/client (sanitized of any client-confidential specifics) is strong signal — architects are expected to *show*, not just describe.
 - **Hugging Face**: not mandatory for an architect role, but starring/following spaces relevant to your stack (embedding models, evaluation tooling) and occasionally commenting shows engagement without requiring you to publish your own models.
